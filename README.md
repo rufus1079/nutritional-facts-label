@@ -2,7 +2,7 @@
 
 The goal of this exercise is to build a "Nutritional Facts Label" component with React.  Specifically, the "Standard Vertical Label" format as described by the FDA and [demonstrated here](https://www.nutritionfacts-labels.com/labels/standard-vertical).
 
-![Nutritional Facts Label](https://github.com/okayd/nutritional-facts-label-coding-challenge/tree/main/assets/nutrition-facts-label.png)
+![Nutritional Facts Label](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/US_Nutritional_Fact_Label_2.svg/1200px-US_Nutritional_Fact_Label_2.svg.png)
 
 **Background, Resources & Inspiration**
 
