@@ -30,5 +30,4 @@ There's a folder in this repo called `assets` that contains a few resources that
 ### Stretch Goals
 
 - Look into supporting different label formats (e.g. a "Vertical Display with Micronutrients Listed Side-by-Side", "Tabular Format", or [any other formats referenced](https://www.nutritionfacts-labels.com/labels)).
-
-
+- Consider creating a form that allows users to input nutritional data. The Nutritional Facts Label component should then dynamically populate based on the data entered in this form.
