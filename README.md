@@ -21,7 +21,7 @@ The goal of this exercise is to build a "Nutritional Facts Label" component with
 
 When creating the markup that will *render* the actual Nutritional Facts Label - spacing, font treatements, and sizing can be very important.  For this reason, there are two options for rendering the label: SVG or HTML.   SVG provides more control over the final output, but HTML is easier to work with.  You can choose whichever approach you prefer.  
 
-*Note: If you choose to use SVG, you may find the resources in the `assets` folder helpful.*
+*Note: If you choose to use SVG, you may find the resources in the `assets` folder helpful or within the HTML markup on the https://www.nutritionfacts-labels.com/ page.*
 
 ### Assets
 
