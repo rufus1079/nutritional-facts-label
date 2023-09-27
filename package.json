@@ -1,0 +1,30 @@
+{
+  "name": "nutritional-facts-label-coding-challenge",
+  "version": "1.0.0",
+  "description": "The goal of this exercise is to build a \"Nutritional Facts Label\" component with React.  Specifically, the \"Standard Vertical Label\" format as described by the FDA and [demonstrated here](https://www.nutritionfacts-labels.com/labels/standard-vertical).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rufus1079/nutritional-facts-label.git"
+  },
+  "author": "Jacob Welsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rufus1079/nutritional-facts-label/issues"
+  },
+  "homepage": "https://github.com/rufus1079/nutritional-facts-label#readme",
+  "dependencies": {
+    "bright": "^0.8.4",
+    "next": "13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^16.13.1",
+    "styled-components": "^5.3.11"
+  }
+}
