@@ -37,7 +37,7 @@ rect {
 .md\:w-\[70\%\]{
     width: 70%;
 }
-svg{
+svg, div{
     display: block;
 }
 .helvetica-black {
@@ -61,4 +61,46 @@ svg{
 }
 .text-\[22pt\] {
     font-size: 22pt;
+}
+.label-inputs {
+    z-index: 10;
+    margin-left: -1px;
+    width: 100%;
+    flex: 1 1 0%;
+    --tw-border-opacity: 1;
+    border-color: rgb(206 212 218/var(--tw-border-opacity));
+    padding-left: .625rem;
+    padding-right: .25rem;
+    font-size: 15px;
+    line-height: 1;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.rounded-r {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.w-full {
+    width: 100%;
+}
+.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+.lg\:grid {
+    display: grid;
+}
+.gap-4 {
+    gap: 1rem;
+    }
+input {
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
 }

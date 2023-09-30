@@ -30,47 +30,47 @@ function StandardVerticalLabel({ nutritionInfo }) {
       <text x="214.5" y="59.55" className="helvetica-black text-[10pt]" textAnchor="end" fill="black">{nutritionInfo['servingSize']}</text>
       <text x="4.45" y="88" className="helvetica-black text-[6pt]" fill="black">Amount per serving</text>
       <text x="4.8" y="108.7" className="helvetica-black text-[16pt]" fill="black">Calories</text>
-      <text x="214.8" y="108.6" className="helvetica-black text-[22pt] tracking-[-0.1px]" text-anchor="end" fill="black">{nutritionInfo['calories']}</text>
+      <text x="214.8" y="108.6" className="helvetica-black text-[22pt] tracking-[-0.1px]" textAnchor="end" fill="black">{nutritionInfo['calories']}</text>
       <text x="149" y="130.1" className="helvetica-black text-[6pt]" fill="black">% Daily Value*</text>
       <text x="5.7" y="147.3" className="helvetica-black text-[8pt]" fill="black">Total Fat</text>
       <text x="61.9" y="147.3" className="helvetica text-[8pt]" fill="black">{nutritionInfo['totalFat'][0]}g</text>
-      <text x="213.3" y="147.6" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['totalFat'][1]}</text>
+      <text x="213.3" y="147.6" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['totalFat'][1]}</text>
       <text x="19" y="163.3" className="helvetica text-[8pt]" fill="black">Saturated Fat</text>
       <text x="86.5" y="163.3" className="helvetica text-[8pt]" fill="black">{nutritionInfo['saturatedFat'][0]}g</text>
-      <text x="213.3" y="163.6" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['saturatedFat'][1]}</text>
+      <text x="213.3" y="163.6" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['saturatedFat'][1]}</text>
       <text x="19.1" y="179.3" className="helvetica text-[8pt] italic" fill="black">Trans</text>
       <text x="49.1" y="179.3" className="helvetica text-[8pt]" fill="black">Fat</text>
       <text x="67.6" y="179.3" className="helvetica text-[8pt]" fill="black">{nutritionInfo['transFat']}g</text>
       <text x="5.7" y="195.2" className="helvetica-black text-[8pt]" fill="black">Cholesterol</text>
       <text x="76" y="195.2" className="helvetica text-[8pt]" fill="black">{nutritionInfo['cholesterol'][0]}</text>
-      <text x="213.3" y="195.5" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['cholesterol'][1]}</text>
+      <text x="213.3" y="195.5" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['cholesterol'][1]}</text>
       <text x="5.7" y="211.2" className="helvetica-black text-[8pt]" fill="black">Sodium</text>
       <text x="52.3" y="211.2" className="helvetica text-[8pt]" fill="black">{nutritionInfo['sodium'][0]}mg</text>
-      <text x="213.3" y="211.5" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['sodium'][1]}</text>
+      <text x="213.3" y="211.5" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['sodium'][1]}</text>
       <text x="5.7" y="227.1" className="helvetica-black text-[8pt]" fill="black">Total Carbohydrate</text>
       <text x="121.7" y="227.1" className="helvetica text-[8pt]" fill="black">{nutritionInfo['totalCarbohydrate'][0]}g</text>
-      <text x="213.3" y="227.4" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['totalCarbohydrate'][1]}</text>
+      <text x="213.3" y="227.4" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['totalCarbohydrate'][1]}</text>
       <text x="19.1" y="243.1" className="helvetica text-[8pt]" fill="black">Dietary Fiber</text>
       <text x="83" y="243.1" className="helvetica text-[8pt]" fill="black">{nutritionInfo['dietaryFiber'][0]}g</text>
-      <text x="213.3" y="243.4" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['dietaryFiber'][1]}</text>
+      <text x="213.3" y="243.4" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['dietaryFiber'][1]}</text>
       <text x="19.1" y="259.1" className="helvetica text-[8pt]" fill="black">Total Sugars</text>
       <text x="82.3" y="259.1" className="helvetica text-[8pt]" fill="black">{nutritionInfo['totalSugars']}g</text>
       <text x="32.2" y="275.1" className="helvetica text-[8pt]" fill="black">Includes {nutritionInfo['addedSugars'][0]}g Added Sugars</text>
-      <text x="213.3" y="275.3" className="helvetica-black text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['addedSugars'][1]}</text>
+      <text x="213.3" y="275.3" className="helvetica-black text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['addedSugars'][1]}</text>
       <text x="5.7" y="291.2" className="helvetica-black text-[8pt]" fill="black">Protein</text>
       <text x="51.2" y="291.2" className="helvetica text-[8pt]" fill="black">{nutritionInfo['protein']}g</text>
       <text x="5.7" y="316.5" className="helvetica text-[8pt]" fill="black">Vitamin D</text>
       <text x="54.6" y="316.5" className="helvetica text-[8pt]" fill="black">{nutritionInfo['vitaminD'][0]}mcg</text>
-      <text x="213.4" y="316.5" className="helvetica text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['vitaminD'][1]}</text>
+      <text x="213.4" y="316.5" className="helvetica text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['vitaminD'][1]}</text>
       <text x="5.7" y="332.45" className="helvetica text-[8pt]" fill="black">Calcium</text>
       <text x="47" y="332.45" className="helvetica text-[8pt]" fill="black">{nutritionInfo['calcium'][0]}mg</text>
-      <text x="213.4" y="332.45" className="helvetica text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['calcium'][1]}</text>
+      <text x="213.4" y="332.45" className="helvetica text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['calcium'][1]}</text>
       <text x="5.7" y="348.4" className="helvetica text-[8pt]" fill="black">Iron</text>
       <text x="26.9" y="348.4" className="helvetica text-[8pt]" fill="black">{nutritionInfo['iron'][0]}mg</text>
-      <text x="213.4" y="348.4" className="helvetica text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['iron'][1]}</text>
+      <text x="213.4" y="348.4" className="helvetica text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['iron'][1]}</text>
       <text x="5.7" y="364.35" className="helvetica text-[8pt]" fill="black">Potassium</text>
       <text x="58.5" y="364.35" className="helvetica text-[8pt]" fill="black">{nutritionInfo['potassium'][0]}mg</text>
-      <text x="213.4" y="364.35" className="helvetica text-[8pt]" text-anchor="end" fill="black">{nutritionInfo['potassium'][1]}</text>
+      <text x="213.4" y="364.35" className="helvetica text-[8pt]" textAnchor="end" fill="black">{nutritionInfo['potassium'][1]}</text>
       <text x="4.2" y="381.9" className="helvetica text-[6pt]" textLength="203.8" lengthAdjust="spacing" fill="black">* The % Daily Value (DV) tells you how much a nutrient in</text>
       <text x="9.5" y="391" className="helvetica text-[6pt]" textLength="202.3" lengthAdjust="spacing" fill="black">a serving of food contributes to a daily diet. 2,000 calories</text>
       <text x="9.5" y="400.4" className="helvetica text-[6pt]" textLength="145.6" lengthAdjust="spacing" fill="black">a day is used for general nutrition advice.</text>
